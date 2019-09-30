@@ -1,4 +1,4 @@
-# ⚡️ ETS Template - Node.js 💛 React edition
+# ⚡️ Lol - Flows 💛 React edition
 
 ## Pre-reqs
 * Node.js ^10.x.x
@@ -7,23 +7,16 @@
 **A note about yarn:** Yarn is a package manager for node. It uses the same registry as npm, but it's quicker and more secure. Yarn is recommended for use over npm.
 To learn more about Yarn, [visit the docs](https://yarnpkg.com/en/docs/install)
 
-## Project Start
-> If you've requested this app via ServiceNow, skip ahead to 3.
-
 1. Checkout a clean version of the project
 ```zsh
-~ $ git clone git@github.com:elanco/ets-template-node-react.git $projectname && cd $projectname
+~ $ git clone https://github.com/MarianWinston/lol-flows.git
 ```
-2. Add your git repo
-```zsh
-~/$projectname $ rm -rf .git
-~/$projectname $ git remote add origin $yourrepourl
-```
-3. Install dependencies
+
+2. Install dependencies
 ```zsh
 ~/$projectname $ yarn
 ```
-4. Develop!
+3. Develop!
 ```zsh
 ~/$projectname $ yarn dev
 ```
@@ -47,8 +40,7 @@ This package comes with CI by default. The config for Azure Pipelines can be fou
 
 ## Contributing
 
-This template (should be) is open source to everybody in Elanco. This means that if you want a feature, or want to fix a bug - submit a pull request!
+This template (should be) is open source to everybody that has interest in adding good quality code. This means that if you want a feature, or want to fix a bug - submit a pull request!
 
 Just ensure that:
-* CI Passes
 * This is an easily maintainabile feature
