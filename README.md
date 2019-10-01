@@ -24,9 +24,6 @@ To learn more about Yarn, [visit the docs](https://yarnpkg.com/en/docs/install)
 ## Configuration
 All configuration should be managed via `.env` per the 12 factor app. a `.env-sample` file is included.
 
-## Continuous Integration
-This package comes with CI by default. The config for Azure Pipelines can be found under `.ci/`. The following processes for branches is described:
-
 #### `master`, `feature/*`, `cleanup/*` and `fix/*`
 * Lint code (according to the Airbnb style guide)
 * Test code (according to unit tests defined in `test/`)
