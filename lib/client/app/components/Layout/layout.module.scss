@@ -1,0 +1,20 @@
+@import '../../styles/_variables/colors.scss';
+
+.Layout {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 70%;
+    background-color: $dark-blue;
+}
+
+.FullWidth {
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+}
+
+// Phones
+@media only screen and (max-width: 768px) {
+    .Layout {
+        max-width: 100%;
+    }
+}

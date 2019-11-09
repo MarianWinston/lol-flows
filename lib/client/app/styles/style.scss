@@ -1,0 +1,55 @@
+// colors
+@import './_variables/colors.scss';
+
+// fonts
+@import './_variables/fonts.scss';
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    color: $black;
+    background-color: $violet;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+// Medium
+@media only screen and (max-width: 1920px) {
+
+    html,
+    body {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
+
+// Phones
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+}

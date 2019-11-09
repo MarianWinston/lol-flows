@@ -36,7 +36,8 @@
     "eslint-plugin-react-hooks": "^1.7.0",
     "mocha": "^6.2.0",
     "nodemon": "^1.19.2",
-    "parcel": "^1.12.3"
+    "parcel": "^1.12.3",
+    "sass": "^1.23.3"
   },
   "dependencies": {
     "express": "^4.17.1",

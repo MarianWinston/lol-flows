@@ -1,17 +1,14 @@
-import React, {useState, useEffect} from 'react'
-import '../styles/home.scss'
+import React, { useState, useEffect } from "react";
+import "../styles/style.scss";
+import Champions from "../components/Champions";
+import Layout from "../components/Layout";
 
 function Home() {
-	const [date, setDate] = useState(new Date())
-	useEffect(() => {
-		setTimeout(() => setDate(new Date()), 1000)
-	})
-	return (
-		<div>
-			<h1>Hello, world</h1>
-			<p>The time is: {date.toLocaleTimeString()}</p>
-		</div>
-	)
+  return (
+    <Layout>
+      <Champions />;
+    </Layout>
+  );
 }
 
-export default Home
+export default Home;

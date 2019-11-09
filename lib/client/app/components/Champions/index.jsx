@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "../styles/home.scss";
 
 function Champions() {
   const [champions, setChampions] = useState([
@@ -15,14 +14,11 @@ function Champions() {
     } catch {
       setError(error);
     }
-    console.log(champions);
   }
 
   useEffect(() => {
     getChampions();
   }, []);
-
-  console.log(champions);
 
   if (champions.length > 1) {
     return (
@@ -31,13 +27,11 @@ function Champions() {
           .slice(0, 10)
           .filter(Boolean)
           .map((champ, idx) => {
-            console.log(champ); 
-            <li key={idx}>{champ}</li>; /* ===> BIG ISSUE HERE NO RENDERING LI(S)*/
+            return <li key={idx}>{champ.championLevel}</li>;
           })}
       </ul>
     );
   }
-
   return <p>Loading..</p>;
 }
 
